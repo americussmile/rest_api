@@ -53,7 +53,7 @@ def toString(List):
     return ''.join(List)
 
 
-def permute3(a,start,r,d,max_time=None):
+def permute3(a,start,r,d,max_time=1):
     global result
     for i in range(start,r+1):
         for j in range(start,r+1):
